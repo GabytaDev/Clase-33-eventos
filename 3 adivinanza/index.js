@@ -31,9 +31,6 @@ botonCorrecto.onclick = boton;
 
 //botones incorrectos
 
-const botonIncorrecto = document.querySelector (".botonUno");
-const botonIncorrecto2 = document.querySelector (".botonTres");
-
 const botonEquivocado = ()=> {
     if (botonIncorrecto.onclick){
         botonIncorrecto.style.backgroundColor = ("red");  
